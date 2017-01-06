@@ -48,6 +48,25 @@ span {
   align-items: center;
 }
 
+#gender {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+#gender input {
+  margin: 5px;
+  width: 20px;
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -57,24 +76,7 @@ form {
   width: 100%;
   max-width: 340px;
   border-radius: 3px;
-  align-items: flex-start;
-}
-
-form#gender #radioBtns {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 5px;
-}
-
-form#gender #radioBtns input {
-  width: 20px;
-  cursor: pointer;
-  padding: 0px;
-  margin-bottom: 7px;
-}
-
-label {
-  cursor: pointer;
+  align-items: center;
 }
 
 input {
@@ -102,7 +104,6 @@ button:hover {
 button:active {
   box-shadow: none;
 }
-
 
 footer {
   margin-top: 50px;
