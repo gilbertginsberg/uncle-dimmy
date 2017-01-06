@@ -19,15 +19,25 @@
   
       <main>
         <div class="conversation">
-        <span class="bold">You:</span>&nbsp;<p>"Uncle Dimmy, Uncle Dimmy, what's the dimunitve of [<span class="italic">your favorite Spanish noun</span>]?</p>
+        <span class="bold">You:</span>&nbsp;<p>"Uncle Dimmy, Uncle Dimmy, what's the dimunitve of [<span class="italic">your favorite Spanish noun or adj</span>]?</p>
         </div>
         <br>
         <div class="conversation">
         <span class="bold">Uncle Dimmy:</span>&nbsp;<p>"Oh, why sure! Just t-t-type it into that search box below my dear one-cito."</p>
         </div>
         <br>
+        
         <div class="formish">
-          <form>
+         
+          <form id="gender">
+            <p>Is your word <span class="bold">masucline</span> or <span class="bold">femenine</span>?</p>
+            <div id="radioBtns">
+              <input type="radio" name="gender" value="masculine" id="masculine"><label for="masculine"> M</label>
+              <input type="radio" name="gender" value="femenine" id="femenine"><label for="femenine"> F</label>
+            </div>
+          </form>
+          
+          <form id="noun">
             <input type="text" value="" maxlength="100" placeholder="amigo will be amiguito" id="word">
             <button type="submit" id="btn">Find outcito</button>
           </form>

@@ -22,13 +22,16 @@ function handleClick(event) {
   if (typeof inputWord !== "string") {
     console.log("Alert user to input a string");
   } else {
+    //final phone is 'o'
     if (lastVowel === "o") {
       newWord = inputWord.slice(0, -1) + "ito";  
       dimunutive.innerHTML = newWord;
+      
+      //final phone is 'a'
     } else if (lastVowel === "a") {
       newWord = inputWord.slice(0, -1) + "ita";
       dimunutive.innerHTML = newWord;
-    }
+    } 
   }
 }
 
