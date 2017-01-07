@@ -11,7 +11,7 @@ Spanish words that are diminutizeable (able to be converted into a diminutive fo
 * **adjectives** (*coraje* &#8594; *corajito*)
 * **adverbs** (*ahora* &#8594; *ahorita*) 
 
-Uncle Dimmy would call nouns, adjectives, and adverbs *lexical categories,* but Uncle Dimmy is one laid back follow when it comes to jargon. You could call lexical categories snozzberries and he wouldn't mind. 
+Uncle Dimmy would call nouns, adjectives, and adverbs *lexical categories* because Uncle Dimmy is a linguist. 
 
 **You**: "Uncle Dimmy, Uncle Dimmy, would you please tell me what the diminutive of *casa* is?"
 
