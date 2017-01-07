@@ -14,6 +14,7 @@ function handleClick(event) {
  
   var masculineBtn = document.getElementById("masculine");
   var feminineBtn = document.getElementById("feminine");
+  var adverbBtn = document.getElementById("adverb");
   
   var text = document.getElementById("word"); 
   var inputWord = text.value;
@@ -22,13 +23,19 @@ function handleClick(event) {
   var lastChar = inputWord.charAt(inputWord.length - 1);
   console.log("lastChar is " + lastChar);
   
+  var secondToLastChar = inputWord.charAt(inputWord.length - 2);
+  
+  specialIco.innerHTML = "";
+  
   if (typeof inputWord !== "string") {
     console.log("Alert user to input a string");
   } else {
     if (masculineBtn.checked) {
-      masculineForms(lastChar, inputWord);
+      masculineForms(lastChar, inputWord, secondToLastChar);
     } else if (feminineBtn.checked) {
-      feminineForms(lastChar, inputWord);
+      feminineForms(lastChar, inputWord, secondToLastChar);
+    } else if (adverbBtn.checked) {
+      adverbForms(lastChar, inputWord, secondToLastChar);
     } else {
       alert("Please select a butt, sir or madam.");
     }
@@ -36,11 +43,8 @@ function handleClick(event) {
 }
 
 //rules for converting masculine nouns and adjectives into diminutives
-function masculineForms(lastChar, inputWord) {
-  var secondToLastChar = inputWord.charAt(inputWord.length - 2);
-  specialIco.innerHTML = "";
-  
-  
+function masculineForms(lastChar, inputWord, secondToLastChar) {
+ 
   if (secondToLastChar === "c") {
     newWord = inputWord.slice(0, -2) + "quito";  
     dimunutive.innerHTML = newWord;
@@ -62,14 +66,17 @@ function masculineForms(lastChar, inputWord) {
     
     newWord = "2: " + inputWord.slice(0, -1) + "ico";  
     specialIco.innerHTML = newWord;
-  } else if (lastChar === "o" || lastChar === "e") {
+  } else if (lastChar === "o") {
     newWord = inputWord.slice(0, -1) + "ito";  
     dimunutive.innerHTML = newWord;
-  } else if (lastChar === "l" || lastChar === "s") {
+  } else if (lastChar === "l" || lastChar === "s" && secondToLastChar === "e") {
     newWord = inputWord + "ito";
     dimunutive.innerHTML = newWord;
   } else if (lastChar === "r" || lastChar === "n" || lastChar === "e") {
     newWord = inputWord + "cito";
+    dimunutive.innerHTML = newWord;
+  } else if (lastChar === "s") {
+    newWord = inputWord.slice(0, -2) + "itos";  
     dimunutive.innerHTML = newWord;
   } else {
      newWord = inputWord + "ito";
@@ -78,11 +85,9 @@ function masculineForms(lastChar, inputWord) {
  }
 
 //rules for converting feminine nouns and adjectives into diminutives
-function feminineForms(lastChar, inputWord) {
-  var secondToLastChar = inputWord.charAt(inputWord.length - 2);
-  specialIco.innerHTML = "";
+function feminineForms(lastChar, inputWord, secondToLastChar) {
   
-  if (secondToLastChar === "c") {
+   if (secondToLastChar === "c") {
     newWord = inputWord.slice(0, -2) + "quita";  
     dimunutive.innerHTML = newWord;
   } else if (lastChar === "k") {
@@ -103,19 +108,31 @@ function feminineForms(lastChar, inputWord) {
     
     newWord = "2: " + inputWord.slice(0, -1) + "ica";  
     specialIco.innerHTML = newWord;
-  } else if (lastChar === "a" || lastChar === "e") {
+  } else if (lastChar === "a") {
     newWord = inputWord.slice(0, -1) + "ita";  
     dimunutive.innerHTML = newWord;
-  } else if (lastChar === "l" || lastChar === "s") {
+  } else if (lastChar === "l" || lastChar === "s" && secondToLastChar === "e") {
     newWord = inputWord + "ita";
     dimunutive.innerHTML = newWord;
   } else if (lastChar === "r" || lastChar === "n" || lastChar === "e") {
     newWord = inputWord + "cita";
     dimunutive.innerHTML = newWord;
+  } else if (lastChar === "s") {
+    newWord = inputWord.slice(0, -2) + "itas";  
+    dimunutive.innerHTML = newWord;
   } else {
      newWord = inputWord + "ita";
      dimunutive.innerHTML = newWord;
   }
+ }
+ 
+ function adverbForms (lastChar, inputWord, secondToLastChar) {
+   if (lastChar === "a") {
+     newWord = inputWord.slice(0, -1) + "ita";
+     dimunutive.innerHTML = newWord;
+   } else {
+     masculineForms(lastChar, inputWord, secondToLastChar);
+   }
  }
 
 window.onload = initialize;

@@ -39,7 +39,7 @@ main {
   color: #BD2C00;
 }
 
-.conversation {
+.conversation, .warning {
   max-width: 50%;
 }
 
@@ -96,6 +96,16 @@ button {
   border: 1px solid grey;
   box-shadow: 2px 2px teal;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #4078C0;
+}
+
+a:hover {
+  color: white;
+  background-color: #BD2C00;
 }
 
 button:hover {
