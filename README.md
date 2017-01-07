@@ -1,27 +1,36 @@
-Welcome to the Gomix BETA
+Uncle Dimmy 
 =========================
 
-Click `"Show"` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Uncle Dimmy says ¡Hola!
 
-Gomix is a developer playground that lets you code a real web-app without the slow setup and deployment steps.
+Uncle Dimmy is a fun, funny and friendly linguist. His area of focus is the Spanish language. And when asked politely, Uncle Dimmy gives you the diminutive form of any Spanish word that is "diminutizeable" (Uncle Dimmy created that word. Did Uncle Dimmy tell you he loves morphology (the study of words)? 
 
-[About Gomix](https://gomix.com/about)
+Spanish words that are diminutizeable (able to be converted into a diminutive form) include:
 
+* **nouns** (*animal* &#8594; *animalito*)
+* **adjectives** (*coraje* &#8594; *corajito*)
+* **adverbs** (*ahora* &#8594; *ahorita*) 
 
-Your Project
-------------
+Uncle Dimmy would call nouns, adjectives, and adverbs *lexical categories,* but Uncle Dimmy is an uncle, not a boss. So we'll stick with "Spanish words."
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env`
+**You**: "Uncle Dimmy, Uncle Dimmy, would you please tell me what the diminutive of *casa* is?"
 
-On the front-end,
-- edit `client.js`, `style.css` and `index.html`
-- drag in `assets`, like images or music, to add them to your project
+**Uncle Dimmy**: "Eager learner, why don't you press my belly button and find out."
 
+**You**: (pressing Uncle Dimmy's belly button)
 
-Made by Fog Creek
+**Uncle Dimmy**: "The diminutive of *casa* is *casita*."
+
+**You**: "Gracias, ¡Uncle Dimmy!"
+
 -----------------
 
+Screenplay by Esteban Gilberto (alias)
+
 \ ゜o゜)ノ
+
+-----------------
+
+Sources:
+
+* http://revistahumanidades.unab.cl/wp-content/uploads/2013/07/A7.-CASTILLO-ORTIZ.pdf
