@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Uncle Dimmy</title>
-    <meta name="description" content="Uncle Dimmy is a Spanish dimunitve converter - it gives you the dimunitive of your favorite Spanish nouns">
+    <title>Uncle Dimmy - the one man Spanish diminutive converter</title>
+    <meta name="description" content="Uncle Dimmy is a Spanish language diminutive converter">
     <link id="favicon" rel="icon" href="https://gomix.com/favicon-app.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,20 +19,27 @@
   
       <main>
         <div class="conversation">
-        <span class="bold">You:</span>&nbsp;<p>"Uncle Dimmy, Uncle Dimmy, what's the dimunitve of [<span class="italic">your favorite Spanish noun or adj</span>]?</p>
+          <p><span class="bold">You: </span>"Uncle Dimmy, Uncle Dimmy, what's a Spanish <span class="bold">diminutive</span>?"</p>
+          <p><span class="bold">Uncle Dimmy: </span>"Ah yes, the diminutive. A diminutive is a morphological variant of a noun, adjective, or adverb that denotes 
+            'littleness' or 'playfulness.' In Spanish this is accomplished by affixing a morpheme 
+            onto the end of the lexical item. Otherwise known as suffixing, a type of morphological derivation."</p>
+          <p><span class="bold">You: </span>"What?"</p>
+          <p><span class="bold">Uncle Dimmy: </span>"For example, the diminutive of <span class="italic" lang="es">casa</span> would be <span class="italic" lang="es">casita</span>, which means a little house.
+          And you can make any Spanish noun, adjective, or adverb into a diminutive. Would you like a <span class="italic">café</span> or a <span class="italic">cafecito</span>?" 
+          <br><br>
+          What's your favorite Spanish word? If you'd like Uncle Dimmy to give you its diminutive, why don't you go be a mensch and do three little thinguitos:
+          <span class="instructions">1) Select the word's gender <strong>M</strong> or <strong>F</strong> if it's a noun or adjective. 2) Or whether it's an adverb. 3) And then just type the word into that text box.</span> 
+          Uncle Dimmy will tell you the diminutive soon enough..."</p>
         </div>
-        <br>
-        <div class="conversation">
-        <span class="bold">Uncle Dimmy:</span>&nbsp;<p>"Oh, why sure! Just t-t-type it into that search box below my dear one-cito."</p>
-        </div>
-        <br>
-        
+     
         <div class="formish">
-         
-          <div id="gender">
-            <p>Is your word <span class="bold">masucline</span> or <span class="bold">femenine</span>?</p>
-            <button id="masculine">M</button>
-            <button id="feminine">F</button>
+          <div id="lexCategory">
+            <p>If your word is a NOUN or ADJECTIVE, please tell Uncle Dimmy if it's <span class="bold">masculine</span> or <span class="bold">femenine:</span></p>
+            <input type="radio" name="lexical-category" id="masculine"><label for="masculine">M</label>
+            <input type="radio" name="lexical-category" id="feminine"><label for="feminine">F</label>
+             <hr>
+            <p>Or if it's an ADVERB, click the ADVERB button:</p>
+            <input type="radio" name="lexical-category" id="adverb"><label for="adverb">ADVERB</label>
           </div>
           
           <form id="noun">
@@ -41,12 +48,15 @@
           </form>
           
           <p class="bold" id="dimunutive"></p>
-        </div>
+          <p class="bold" id="specialIco"></p>
         
+          <p class="warning"><span class="italic">Warning: While Uncle Dimmy is one smart fellow, he's not perfect. Some of his diminutive conversions might be incorrect 
+          because sometimes Uncle Dimmy is Uncle Dimwit. He's always looking to improve though and you can help Uncle Dimmy improve by emailing any wrongheaded 
+          conversions to gilbert.ginsberg@gmail.com. In Uncle Dimmy we trust.</span></p>
+        </div>
       </main>
-    
       <footer>
-        <p>Built by <a href="https://www.gilbertginsberg.org/">Esteban Gilbert</a> (not real name)</p>
+        <p>Built by <a href="https://www.gilbertginsberg.org/">Esteban Gilberto</a> (alias)</p>
       </footer>
     </div>
     <!-- Your web-app is https, so your scripts need to be too -->

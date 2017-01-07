@@ -1,27 +1,43 @@
-Welcome to the Gomix BETA
+Uncle Dimmy 
 =========================
 
-Click `"Show"` in the header to see your app live. Updates to your code will instantly deploy and update live.
+[Uncle Dimmy](https://uncle-dimmy.gomix.me/) says ¡Hola!
 
-Gomix is a developer playground that lets you code a real web-app without the slow setup and deployment steps.
+Uncle Dimmy is a fun, funny and friendly linguist. His domain of expertise is the Spanish language. And when asked politely, Uncle Dimmy gives you the diminutive form of any Spanish word that is "diminutizeable" (Uncle Dimmy created that word. Did Uncle Dimmy tell you he's a geek for morphology (the study of words)? 
 
-[About Gomix](https://gomix.com/about)
+Spanish words that are diminutizeable (able to be converted into a diminutive form) include:
 
+* **nouns** (*animal* &#8594; *animalito*)
+* **adjectives** (*coraje* &#8594; *corajito*)
+* **adverbs** (*ahora* &#8594; *ahorita*) 
 
-Your Project
-------------
+Uncle Dimmy would call nouns, adjectives, and adverbs *lexical categories* because Uncle Dimmy is a linguist. 
 
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env`
+**You**: "Uncle Dimmy, Uncle Dimmy, would you please tell me what the diminutive of *café* is?"
 
-On the front-end,
-- edit `client.js`, `style.css` and `index.html`
-- drag in `assets`, like images or music, to add them to your project
+**Uncle Dimmy**: "Eager learner, would you first not like to know how morphological derivation affixes morphemes to lexical items? And perhaps how phonological rules act on phonemes? Not to mention anything of phonotactics..."
 
+**You**: "Nah, Uncle D. Just trying to say little cup of coffee in Spanish."  
 
-Made by Fog Creek
+**Uncle Dimmy**: "The diminutive of *café* is *cafecito*."
+
+**You**: "Gracias, ¡Uncle Dimmy!"
+
 -----------------
 
+Screenplay by Esteban Gilberto (alias)
+
 \ ゜o゜)ノ
+
+-----------------
+
+Sources:
+
+* [The Handbook of Hispanic Linguistics](https://books.google.com/books?id=U9CL4xNpZXwC&pg=PA206&lpg=PA206&dq=spanish+linguistics+diminutives&source=bl&ots=ZL0fOL7Qv4&sig=4R7a57GkR9FQFCM-PkVQi28BdVE&hl=en&sa=X&ved=0ahUKEwjYgqGa4K3RAhVj04MKHQibDjgQ6AEILzAD#v=onepage&q=diminutive&f=false)
+* http://revistahumanidades.unab.cl/wp-content/uploads/2013/07/A7.-CASTILLO-ORTIZ.pdf
+
+-----------------
+
+Uncle Dimmy is available for Spanish diminutive inquiries here: https://uncle-dimmy.gomix.me/
+
+Chaucito. 

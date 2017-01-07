@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-weight: bold;
-  color: pink;
+  color: #6E5494;
 }
 
 .bold {
@@ -28,18 +28,19 @@ h1 {
   align-items: center;
 }
 
-p {
-  max-width: 600px;
-  margin: 0px;
-}
-
-.conversation {
+main {
+  width: 75%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-span {
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.instructions {
+  color: #BD2C00;
+}
+
+.conversation, .warning {
+  max-width: 50%;
 }
 
 .formish {
@@ -48,17 +49,17 @@ span {
   align-items: center;
 }
 
-#gender {
+#lexCategory {
   margin-bottom: 25px;
   padding: 15px;
-  background-color: cyan;
+  background-color: #4078C0;
+  color: #fff;
   width: 100%;
   max-width: 340px;
   border-radius: 3px;
 }
 
-#gender input {
-  margin: 5px;
+#lexCategory input {
   width: 20px;
   cursor: pointer;
 }
@@ -72,7 +73,7 @@ form {
   flex-direction: column;
   margin-bottom: 25px;
   padding: 15px;
-  background-color: cyan;
+  background-color: #6CC644;
   width: 100%;
   max-width: 340px;
   border-radius: 3px;
@@ -95,6 +96,16 @@ button {
   border: 1px solid grey;
   box-shadow: 2px 2px teal;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #4078C0;
+}
+
+a:hover {
+  color: white;
+  background-color: #BD2C00;
 }
 
 button:hover {
