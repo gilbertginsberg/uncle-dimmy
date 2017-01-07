@@ -3,7 +3,7 @@ Uncle Dimmy
 
 Uncle Dimmy says ¡Hola!
 
-Uncle Dimmy is a fun, funny and friendly linguist. His area of focus is the Spanish language. And when asked politely, Uncle Dimmy gives you the diminutive form of any Spanish word that is "diminutizeable" (Uncle Dimmy created that word. Did Uncle Dimmy tell you he loves morphology (the study of words)? 
+Uncle Dimmy is a fun, funny and friendly linguist. His domain of expertise is the Spanish language. And when asked politely, Uncle Dimmy gives you the diminutive form of any Spanish word that is "diminutizeable" (Uncle Dimmy created that word. Did Uncle Dimmy tell you he's a geek for morphology (the study of words)? 
 
 Spanish words that are diminutizeable (able to be converted into a diminutive form) include:
 
@@ -11,7 +11,7 @@ Spanish words that are diminutizeable (able to be converted into a diminutive fo
 * **adjectives** (*coraje* &#8594; *corajito*)
 * **adverbs** (*ahora* &#8594; *ahorita*) 
 
-Uncle Dimmy would call nouns, adjectives, and adverbs *lexical categories,* but Uncle Dimmy is an uncle, not a boss. So we'll stick with "Spanish words."
+Uncle Dimmy would call nouns, adjectives, and adverbs *lexical categories,* but Uncle Dimmy is one laid back follow when it comes to jargon. You could call lexical categories snozzberries and he wouldn't mind. 
 
 **You**: "Uncle Dimmy, Uncle Dimmy, would you please tell me what the diminutive of *casa* is?"
 

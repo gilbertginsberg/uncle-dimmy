@@ -1,6 +1,8 @@
 //globals
 var dimunutive = document.getElementById("dimunutive");
 var newWord = "";
+var specialIco = document.getElementById("specialIco");
+
 
 function initialize() {
   let btn = document.getElementById("btn");
@@ -36,9 +38,8 @@ function handleClick(event) {
 //rules for converting masculine nouns and adjectives into diminutives
 function masculineForms(lastChar, inputWord) {
   var secondToLastChar = inputWord.charAt(inputWord.length - 2);
-  var specialIco = document.getElementById("specialIco");
-  
   specialIco.innerHTML = "";
+  
   
   if (secondToLastChar === "c") {
     newWord = inputWord.slice(0, -2) + "quito";  
@@ -75,16 +76,40 @@ function masculineForms(lastChar, inputWord) {
 
 //rules for converting feminine nouns and adjectives into diminutives
 function feminineForms(lastChar, inputWord) {
-  if (lastChar === "a") {
+  var secondToLastChar = inputWord.charAt(inputWord.length - 2);
+  specialIco.innerHTML = "";
+  
+  if (secondToLastChar === "c") {
+    newWord = inputWord.slice(0, -2) + "quita";  
+    dimunutive.innerHTML = newWord;
+  } else if (lastChar === "k") {
+    newWord = inputWord.slice(0, -1) + "quita";  
+    dimunutive.innerHTML = newWord;
+  } else if (secondToLastChar === "g") {
+    newWord = inputWord.slice(0, -1) + "uita";  
+    dimunutive.innerHTML = newWord;
+  } else if (lastChar === "z") {
+    newWord = inputWord.slice(0, -1) + "cecita";  
+    dimunutive.innerHTML = newWord;
+  } else if (secondToLastChar === "u") {
+    newWord = inputWord.slice(0, -2) + "üita";  
+    dimunutive.innerHTML = newWord;
+  } else if (secondToLastChar === "t") {
+    newWord = "1: " + inputWord.slice(0, -1) + "ita";  
+    dimunutive.innerHTML = newWord;
+    
+    newWord = "2: " + inputWord.slice(0, -1) + "ica";  
+    specialIco.innerHTML = newWord;
+  } else if (lastChar === "a" || lastChar === "e") {
     newWord = inputWord.slice(0, -1) + "ita";  
     dimunutive.innerHTML = newWord;
   } else if (lastChar === "l" || lastChar === "s") {
     newWord = inputWord + "ita";
     dimunutive.innerHTML = newWord;
-  } else if (lastChar === "r" || lastChar === "n") {
+  } else if (lastChar === "r" || lastChar === "n" || lastChar === "e") {
     newWord = inputWord + "cita";
     dimunutive.innerHTML = newWord;
-  }
+  } 
  }
 
 window.onload = initialize;
