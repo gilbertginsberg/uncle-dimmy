@@ -71,7 +71,10 @@ function masculineForms(lastChar, inputWord) {
   } else if (lastChar === "r" || lastChar === "n" || lastChar === "e") {
     newWord = inputWord + "cito";
     dimunutive.innerHTML = newWord;
-  } 
+  } else {
+     newWord = inputWord + "ito";
+     dimunutive.innerHTML = newWord;
+  }
  }
 
 //rules for converting feminine nouns and adjectives into diminutives
@@ -109,7 +112,10 @@ function feminineForms(lastChar, inputWord) {
   } else if (lastChar === "r" || lastChar === "n" || lastChar === "e") {
     newWord = inputWord + "cita";
     dimunutive.innerHTML = newWord;
-  } 
+  } else {
+     newWord = inputWord + "ita";
+     dimunutive.innerHTML = newWord;
+  }
  }
 
 window.onload = initialize;

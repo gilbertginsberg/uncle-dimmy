@@ -33,6 +33,7 @@ Screenplay by Esteban Gilberto (alias)
 
 Sources:
 
+* [The Handbook of Hispanic Linguistics](https://books.google.com/books?id=U9CL4xNpZXwC&pg=PA206&lpg=PA206&dq=spanish+linguistics+diminutives&source=bl&ots=ZL0fOL7Qv4&sig=4R7a57GkR9FQFCM-PkVQi28BdVE&hl=en&sa=X&ved=0ahUKEwjYgqGa4K3RAhVj04MKHQibDjgQ6AEILzAD#v=onepage&q=diminutive&f=false)
 * http://revistahumanidades.unab.cl/wp-content/uploads/2013/07/A7.-CASTILLO-ORTIZ.pdf
 
 -----------------
