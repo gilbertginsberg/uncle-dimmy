@@ -35,6 +35,10 @@ main {
   align-items: center;
 }
 
+.instructions {
+  color: #C9510C;
+}
+
 .conversation {
   max-width: 50%;
 }
