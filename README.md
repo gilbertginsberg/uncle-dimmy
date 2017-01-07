@@ -13,13 +13,13 @@ Spanish words that are diminutizeable (able to be converted into a diminutive fo
 
 Uncle Dimmy would call nouns, adjectives, and adverbs *lexical categories* because Uncle Dimmy is a linguist. 
 
-**You**: "Uncle Dimmy, Uncle Dimmy, would you please tell me what the diminutive of *casa* is?"
+**You**: "Uncle Dimmy, Uncle Dimmy, would you please tell me what the diminutive of *café* is?"
 
-**Uncle Dimmy**: "Eager learner, why don't you press my belly button and find out."
+**Uncle Dimmy**: "Eager learner, would you first not like to know how morphological derivation affixes morphemes to lexical items? And perhaps how phonological rules act on phonemes? Not to mention anything of phonotactics..."
 
-**You**: (pressing Uncle Dimmy's belly button)
+**You**: "Nah, Uncle D. Just trying to say little cup of coffee in Spanish."  
 
-**Uncle Dimmy**: "The diminutive of *casa* is *casita*."
+**Uncle Dimmy**: "The diminutive of *café* is *cafecito*."
 
 **You**: "Gracias, ¡Uncle Dimmy!"
 
