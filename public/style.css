@@ -46,7 +46,7 @@ main {
 }
 
 .conversation, .warning {
-  max-width: 50%;
+  max-width: 75%;
 }
 
 .formish {
