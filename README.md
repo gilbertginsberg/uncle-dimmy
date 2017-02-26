@@ -1,6 +1,8 @@
 Uncle Dimmy 
 =========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gilbertginsberg/uncle-dimmy.svg)](https://greenkeeper.io/)
+
 [Uncle Dimmy](https://uncle-dimmy.gomix.me/) says ¡Hola!
 
 Uncle Dimmy is a fun, funny and friendly linguist. His domain of expertise is the Spanish language. And when asked politely, Uncle Dimmy gives you the diminutive form of any Spanish word that is "diminutizeable" (Uncle Dimmy created that word. Did Uncle Dimmy tell you he's a geek for morphology (the study of words)? 
